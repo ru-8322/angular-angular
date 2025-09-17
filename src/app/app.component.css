@@ -1,0 +1,139 @@
+/* General Layout */
+.container {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #f3f4f6, #e5e7eb);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #111827;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav a {
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #60a5fa;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: white;
+    margin: 2rem auto;
+    border-radius: 12px;
+    max-width: 700px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    border: 3px solid #111827;
+}
+
+.hero h2 {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.hero h3 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #374151;
+}
+
+.highlight {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #1e40af;
+}
+
+/* Skills Section */
+.skills {
+    text-align: center;
+    margin: 2rem auto;
+}
+
+.skills h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.skills-list span {
+    background: #f3f4f6;
+    border: 1px solid #d1d5db;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: all 0.3s ease;
+}
+
+.skills-list span:hover {
+    background: #2563eb;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
